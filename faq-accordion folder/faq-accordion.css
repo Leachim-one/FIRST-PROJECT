@@ -1,0 +1,75 @@
+/* body {
+    background: linear-gradient(to right, 
+    url('/newbie/faq-accordion-main/assets/images/background-pattern-desktop.svg') 60%, 
+    #f0f0f0 60%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    margin:auto;
+    padding:20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+} */
+
+
+/* chat gpt prototype */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.background {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+}
+
+.top-section {
+    height: 50%; /* Top half of the page */
+    background: url('/newbie/faq-accordion-main/assets/images/background-pattern-desktop.svg') no-repeat center center;
+    background-size: cover; /* Scale the image to cover the area */
+}
+
+.bottom-section {
+    height: 50%; /* Bottom half of the page */
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.container {
+    position: absolute;
+    top: 60%; /* Position container in the middle of the viewport */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the container both horizontally and vertically */
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 6px 6px 10px black;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    font-weight: bold;
+    color:rgb(56, 19, 91);
+}
+button:hover{
+    font-weight: bold;
+    color:rgb(129, 38, 214);
+}
